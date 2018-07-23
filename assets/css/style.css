@@ -154,6 +154,9 @@ h2 {
   border: 0 none;
   opacity: 0.8;
 }
+img {
+  height: 205.5px;
+}
 
 .work h3 {
   position: absolute;
@@ -405,7 +408,13 @@ input[type=submit] {
     line-height: 20px;
   }
 }
-
+@media screen and (max-width: 980px){
+  img {
+    position: relative;
+    left: 0%;
+    height: 205.5px;
+  }
+}
 @media screen and (max-width: 768px) {
   .main-section {
     float: left;
@@ -416,6 +425,13 @@ input[type=submit] {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+  }
+}
+@media screen and (max-width: 768px){
+  img {
+    position: relative;
+    left: 0%;
+    height: 205.5px;
   }
 }
 
@@ -449,6 +465,13 @@ input[type=submit] {
     text-align: justify;
   }
 }
+@media screen and (max-width: 640px){
+  img {
+    position: relative;
+    left: 0%;
+    height: 205.5px;
+  }
+}
 
 @media screen and (max-width: 980px){
   .work {
@@ -456,3 +479,90 @@ input[type=submit] {
     margin: 0%;
   }
 }
+@media screen and (max-width: 376px){
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 376x;
+    margin: 0 0 0px;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+  }
+  @media screen and (max-width: 376px) {
+    nav {
+      display: inline-block;
+      padding-left: 15px;
+      margin-left: 15px;
+      line-height: 18px;
+      padding-right: 3%;
+      color: #999;
+      text-decoration: none;
+      border-left: 1px solid #efefef;
+    }
+  }
+  @media screen and (max-width: 376px){
+    #logo {
+      width: 250px;
+      height: 90px;
+      bottom: 0px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: #4aaaa5;
+      /* left: 15px; */
+  
+    }
+  }
+  @media screen and (max-width: 376px) {
+    #main-container {
+      float: left;
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      left: 30%;
+      padding: 30px;
+      margin: 0 0 40px;
+      bottom: 600px;
+      background: none;
+      border: none;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .main-section {
+      float: left;
+      width: 100%;
+      max-width: auto;
+      height: auto;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #fff;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  @media screen and (max-width: 376px){
+    .work {
+      padding: 0%;
+      margin: 0%;
+    }
+  }
+  @media screen and (max-width: 376px){
+    .auth-image{
+      position: relative;
+      left: 0%;
+    }
+  }
+  @media screen and (max-width: 376px){
+    img {
+      position: relative;
+      left: 0%;
+      height: 205.5px;
+    }
+  }
