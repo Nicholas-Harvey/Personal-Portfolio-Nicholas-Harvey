@@ -5,6 +5,23 @@ body {
   color: #d6cd1e;
   background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
+
+.porfolio-card {
+  background-color: seagreen;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d6cd1e; 
+}
+
+#contact-button{
+  background-color: seagreen;
+  border-color: #d6cd1e;
+    border-style: double;
+    width: 395px;
+    height: 40px;
+    font-size: 17px;
+}
+
 element.style {
   color: #d6cd1e;
 }
