@@ -251,8 +251,9 @@ input[type=submit] {
   color: #fff;
   cursor: pointer;
   background: #00a650;
-  border: 0 none;
+  border-style: solid;
   border-radius: 10px;
+  border-color: #d6cd1e;
 }
 
 @media screen and (max-width: 980px){
