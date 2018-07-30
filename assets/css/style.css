@@ -21,8 +21,8 @@ body {
   background-color: #00a650;
   border-color: #d6cd1e;
     border-style: solid;
-    width: 395px;
-    height: 40px;
+    width: 40%;
+    height: 49%;
     font-size: 17px;
     border-radius: 10px;
 }
@@ -266,6 +266,15 @@ input[type=submit] {
   background: #00a650;
   border-bottom: 2px solid #ccc;
 }
+#contact-button{
+  background-color: #00a650;
+  border-color: #d6cd1e;
+    border-style: solid;
+    width: 54%;
+    height: 49%;
+    font-size: 17px;
+    border-radius: 10px;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -279,6 +288,15 @@ input[type=submit] {
     background: #00a650;
     border-bottom: 2px solid #ccc;
   }
+  #contact-button{
+    background-color: #00a650;
+    border-color: #d6cd1e;
+      border-style: solid;
+      width: 54%;
+      height: 49%;
+      font-size: 17px;
+      border-radius: 10px;
+  }
   }
 
   @media screen and (max-width: 640px){
@@ -291,6 +309,15 @@ input[type=submit] {
       color: #fff;
       background: #00a650;
       border-bottom: 2px solid #ccc;
+    }
+    #contact-button{
+      background-color: #00a650;
+      border-color: #d6cd1e;
+        border-style: solid;
+        width: 54%;
+        height: 49%;
+        font-size: 17px;
+        border-radius: 10px;
     }
     }
 
@@ -603,5 +630,14 @@ input[type=submit] {
       position: relative;
       left: 0%;
       height: 205.5px;
+    }
+    #contact-button{
+      background-color: #00a650;
+      border-color: #d6cd1e;
+        border-style: solid;
+        width: 100%;
+        height: 49%;
+        font-size: 17px;
+        border-radius: 10px;
     }
   }
