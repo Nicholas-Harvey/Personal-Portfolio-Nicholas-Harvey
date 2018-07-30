@@ -7,19 +7,26 @@ body {
 }
 
 .porfolio-card {
-  background-color: seagreen;
+  background-color: #00a650;
   border-style: solid;
   border-width: 2px;
   border-color: #d6cd1e; 
 }
+.links-to-pages { 
+  text-align: center;
+}
 
 #contact-button{
-  background-color: seagreen;
+  background-color: #00a650;
   border-color: #d6cd1e;
-    border-style: double;
+    border-style: round;
     width: 395px;
     height: 40px;
     font-size: 17px;
+}
+.porfolio-card-title {
+  text-align: center; 
+
 }
 
 element.style {
@@ -241,7 +248,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #00a650;
   border: 0 none;
 }
 
