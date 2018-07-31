@@ -90,8 +90,9 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #00a650;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hMH8tD4/japanese-garden-green-grass-and-blurry-tree-in-background-2016_h0e4_zfxj_thumbnail-full01.png");
   border-bottom: 2px solid #ccc;
+  border-bottom-style: groove;
 }
 
 #logo {
@@ -105,7 +106,7 @@ h3 {
   color: #d6cd1e;
   text-align: center;
   text-decoration: none;
-  background: #00a650;
+  background: none;
 }
 
 nav {
@@ -136,8 +137,9 @@ footer {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: seagreen;
-  border-top: 8px solid #d6cd1e;
+  background-image: url("http://www.newcountryorganics.com/wp-content/uploads/2015/12/dirt.jpg");
+  border-top: 2px solid #ccc;
+  border-top-style: groove;
   height: 50px;
 }
 
@@ -212,6 +214,7 @@ img {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  border-radius: 100%;
 }
 
 /* contact page */
@@ -230,6 +233,7 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
+  border-radius: 10px;
 }
 
 input[type=text],
