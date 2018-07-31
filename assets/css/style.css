@@ -569,6 +569,7 @@ input[type=submit] {
       color: #999;
       text-decoration: none;
       border-left: 1px solid #efefef;
+      float: left;
     }
   }
   @media screen and (max-width: 376px){
