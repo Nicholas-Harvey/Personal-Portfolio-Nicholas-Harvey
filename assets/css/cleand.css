@@ -178,6 +178,7 @@ h2 {
   float: left;
   width: 224px;
   margin: 20px 0 25px;
+  padding: 10px;
   right: 0%;
   left: 0%;
   overflow: auto;
@@ -430,6 +431,7 @@ input[type=submit] {
     position: relative;
     float: left;
     width: 274px;
+    padding: 10px;
     margin: 20px 0 25px;
     overflow: auto;
   }
@@ -667,6 +669,7 @@ input[type=submit] {
       position: relative;
       float: left;
       width: 274px;
+      padding: 10px;
       margin: 20px 0 25px;
       overflow: auto;
     }
@@ -902,6 +905,7 @@ input[type=submit] {
         position: relative;
         float: left;
         width: 274px;
+        padding: 10px;
         margin: 20px 0 25px;
         overflow: auto;
       }
@@ -1138,6 +1142,7 @@ input[type=submit] {
           float: left;
           width: 274px;
           margin: 20px 0 25px;
+          padding: 10px;
           overflow: auto;
         }
         .work:nth-child(even) {
