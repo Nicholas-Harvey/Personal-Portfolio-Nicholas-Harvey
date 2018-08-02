@@ -143,6 +143,7 @@ footer {
   border-top: 2px solid #ccc;
   border-top-style: groove;
   height: 50px;
+  bottom: 0px;
 }
 
 h3,
@@ -233,6 +234,10 @@ img {
 
 #contact-form li {
   margin-bottom: 10px;
+}
+
+li {
+ padding: 5px;
 }
 
 label,
@@ -403,6 +408,7 @@ input[type=submit] {
     border-top: 2px solid #ccc;
     border-top-style: groove;
     height: 50px;
+    bottom: 0px;
   }
   h3,
   h2 {
@@ -1088,9 +1094,11 @@ input[type=submit] {
         nav {
           float: left;
           margin-top: 25px;
-        }
+          margin-right: 50px;
+                }
         nav a {
           display: inline-block;
+          margin-right: 50px;
           padding-left: 15px;
           margin-left: 15px;
           line-height: 18px;
@@ -1100,6 +1108,7 @@ input[type=submit] {
         }
         nav a:first-child {
           border-left: 0 none;
+          margin-right: 50%;
         }
         /* footer */
         footer {
@@ -1236,3 +1245,4 @@ input[type=submit] {
           text-align: center;
         }
       }
+    
