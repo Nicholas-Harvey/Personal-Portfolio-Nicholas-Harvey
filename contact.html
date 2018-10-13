@@ -2,11 +2,16 @@
 <html lang="en-us">
 
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Nicholas Harvey</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/cleand.css">
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/firebaseLogic.js"></script>
+
 </head>
 
 <body>
@@ -29,19 +34,19 @@
       <form id="contact-form">
         <ul>
           <li>Email me at: nicholas.harvey1914@gmail.com</li>
-          <li><button type="submit" id="contact-button"><a href="https://www.linkedin.com/in/nicholas-harvey-996aa5129/">Click here to view my Linkden profile</a></button></li>
+          <li><button type="submit" id="contact-button"><a href="https://www.linkedin.com/in/nicholas-harvey-996aa5129/">Click here to view my Linkedin profile</a></button></li>
           <br>
           <li><button type="submit" id="contact-button"><a href="https://github.com/nicholas-harvey">Click here to view my Github profile</a></button></li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Johnny Appleseed" required="required">
+            <input type="text" id="clientName-input" name="name" placeholder="Johnny Appleseed" required="required">
           </li>
           <li>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="honeycrisparethebest@gmail.com" required="required">
+            <input type="email" id="clientEmail-input" name="email" placeholder="honeycrisparethebest@gmail.com" required="required">
           </li>
           <li>
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Hey I think I may have a project that you might be interesed in!" required="required"></textarea>
+            <textarea id="message" name="clientMessage-input" placeholder="Hey I think I may have a project that you might be interesed in!" required="required"></textarea>
           </li>
         </ul>
         <input type="submit">
