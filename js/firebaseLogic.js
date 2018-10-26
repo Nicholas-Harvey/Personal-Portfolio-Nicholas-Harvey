@@ -1,4 +1,4 @@
-prompt("Hi")
+// prompt("Hi")
   var config = {
     apiKey: "AIzaSyAkwPVGAfB2HMVyX2273pjJXYRWsfM_zPg",
     authDomain: "contactmessages-3f86d.firebaseapp.com",
